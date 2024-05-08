@@ -27,7 +27,7 @@ const postPredictHandler = async (request, h) => {
         status: 'success',
         message:
           confidenceScore >= 100 || confidenceScore < 1
-            ? 'Model is predicted successfully.'
+            ? 'Model is predicted successfully'
             : 'Model is predicted successfully but under threshold. Please use the correct picture',
         data,
       })

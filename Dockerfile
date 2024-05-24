@@ -2,7 +2,7 @@ FROM node:buster-slim
 
 ENV NODE_ENV=production
 ENV PORT=8080
-ENV MODEL_URL='https://storage.googleapis.com/asclepius-model-bucket/model/model.json'
+ENV MODEL_URL='https://storage.googleapis.com/model_ml_dicodingsubmission_tutorial/model.json'
 
 COPY . .
 
